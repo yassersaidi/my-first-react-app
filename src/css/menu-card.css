@@ -77,3 +77,30 @@
 .menu-price::after{
     content: " $";
 }
+.comments{
+
+}
+.comments ul{
+    padding: 1px 8px;
+}
+.comments ul li{
+    margin: 9px 0;
+    list-style: none;
+    background: #fafafa8c;
+    padding: 6px 10px;
+    border-radius: 4px;
+    box-shadow: 1px 1px 7px #00000073;
+}
+.comments ul li .comment-content{
+    font-size: 20px;
+    margin: 0 0 6px;
+}
+.comments ul li .comment-info{
+    padding: 0 15px;
+    font-size: 17px;
+}
+.review{
+    padding: 0 9px;
+    font-size: 26px;
+    font-weight: 600;
+}

@@ -2,13 +2,13 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import "reactstrap/dist/reactstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
-import './css/index.css';
-import App from './Components/App';
+import "./css/menu-card.css"
+import Main from './Components/MainComponent';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Main />
   </React.StrictMode>,
   document.getElementById('root')
 );
