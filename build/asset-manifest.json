@@ -1,26 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.aac5cee0.chunk.css",
-    "main.js": "/static/js/main.4dd08481.chunk.js",
-    "main.js.map": "/static/js/main.4dd08481.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e2abd64f.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e2abd64f.js.map",
-    "static/css/2.c1256375.chunk.css": "/static/css/2.c1256375.chunk.css",
-    "static/js/2.c9792ad4.chunk.js": "/static/js/2.c9792ad4.chunk.js",
-    "static/js/2.c9792ad4.chunk.js.map": "/static/js/2.c9792ad4.chunk.js.map",
-    "static/js/3.23ddd02e.chunk.js": "/static/js/3.23ddd02e.chunk.js",
-    "static/js/3.23ddd02e.chunk.js.map": "/static/js/3.23ddd02e.chunk.js.map",
+    "main.css": "/static/css/main.0a1db353.chunk.css",
+    "main.js": "/static/js/main.44c3e759.chunk.js",
+    "main.js.map": "/static/js/main.44c3e759.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.1bf7a622.js",
+    "runtime-main.js.map": "/static/js/runtime-main.1bf7a622.js.map",
+    "static/css/2.9959e6a7.chunk.css": "/static/css/2.9959e6a7.chunk.css",
+    "static/js/2.16ab536a.chunk.js": "/static/js/2.16ab536a.chunk.js",
+    "static/js/2.16ab536a.chunk.js.map": "/static/js/2.16ab536a.chunk.js.map",
+    "static/js/3.aac4d2f9.chunk.js": "/static/js/3.aac4d2f9.chunk.js",
+    "static/js/3.aac4d2f9.chunk.js.map": "/static/js/3.aac4d2f9.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/2.c1256375.chunk.css.map": "/static/css/2.c1256375.chunk.css.map",
-    "static/css/main.aac5cee0.chunk.css.map": "/static/css/main.aac5cee0.chunk.css.map",
-    "static/js/2.c9792ad4.chunk.js.LICENSE.txt": "/static/js/2.c9792ad4.chunk.js.LICENSE.txt",
-    "static/media/menu-card.css": "/static/media/foodbcak.a62f71c1.jpg"
+    "static/css/2.9959e6a7.chunk.css.map": "/static/css/2.9959e6a7.chunk.css.map",
+    "static/css/main.0a1db353.chunk.css.map": "/static/css/main.0a1db353.chunk.css.map",
+    "static/js/2.16ab536a.chunk.js.LICENSE.txt": "/static/js/2.16ab536a.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/static/media/fontawesome-webfont.f691f37e.woff",
+    "static/media/menu-card.css": "/static/media/foodbcak.a62f71c1.jpg",
+    "static/media/header.css": "/static/media/seatyio.38d29dbe.otf"
   },
   "entrypoints": [
-    "static/js/runtime-main.e2abd64f.js",
-    "static/css/2.c1256375.chunk.css",
-    "static/js/2.c9792ad4.chunk.js",
-    "static/css/main.aac5cee0.chunk.css",
-    "static/js/main.4dd08481.chunk.js"
+    "static/js/runtime-main.1bf7a622.js",
+    "static/css/2.9959e6a7.chunk.css",
+    "static/js/2.16ab536a.chunk.js",
+    "static/css/main.0a1db353.chunk.css",
+    "static/js/main.44c3e759.chunk.js"
   ]
 }

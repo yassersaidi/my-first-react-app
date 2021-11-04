@@ -9,7 +9,10 @@
 /coverage
 
 # production
-/build
+/src/images/fishes
+/src/images/plates
+/src/images/fish1.png
+/src/images/fishes.png
 
 # misc
 .DS_Store
