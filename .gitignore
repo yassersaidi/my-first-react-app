@@ -9,10 +9,10 @@
 /coverage
 
 # production
-/src/images/fishes
-/src/images/plates
-/src/images/fish1.png
-/src/images/fishes.png
+src/images/fishes
+src/images/plates
+src/images/fish1.png
+src/images/fishes.png
 
 # misc
 .DS_Store
@@ -24,3 +24,4 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
