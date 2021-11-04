@@ -38,20 +38,9 @@ class Header extends Component {
     // }
     render() {
         return (
-            <div className="Header">
+            <div className="nav-header">
                 <Container className="h-100">
                     <Navbar />
-                    <div className="d-flex justify-content-between content flex-column align-items-center">
-                        <div className="d-flex align-items-center flex-column def">
-                            <h1>Marina Food: Sea Food Restaurant</h1>
-                            <p className="text-center">Welcome to Marina Food, Here you will have a delicious sea food, and all what are you lookig for is Here.</p>
-                        </div>
-                        <div className="buttons">
-                            <a href="/menu">Explore</a>
-                        </div>
-                        {/* {this.addPlates()} */}
-                    </div>
-                    <div className="fishes"></div>
                 </Container>
             </div>
         )

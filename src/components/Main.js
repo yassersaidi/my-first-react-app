@@ -10,7 +10,6 @@ import HomeComponent from "./views/home/Home"
 import MenuComponent from "./views/menu/Menu"
 import AboutComponent from "./views/about/About"
 import ContactComponent from "./views/contact/Contact"
-
 class Main extends Component {
     render() {
         return (

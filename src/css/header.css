@@ -14,14 +14,14 @@
     src: url("../Fonts/seatyio.otf") format("opentype");
 }
 
-.Header {
+.content {
     position: relative;
     height: 100vh;
     width: 100%;
     background: rgb(1, 138, 189);
-    background: -moz-linear-gradient(0deg, rgba(1, 138, 189, 1) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
-    background: -webkit-linear-gradient(0deg, rgba(1, 138, 189, 1) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
-    background: linear-gradient(0deg, rgba(1, 138, 189, 1) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
+    background: -moz-linear-gradient(0deg, rgb(1 138 189 / 69%) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
+    background: -webkit-linear-gradient(0deg, rgb(1 138 189 / 69%) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
+    background: linear-gradient(0deg, rgb(1 138 189 / 69%) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#018abd", endColorstr="#ffffff", GradientType=1);
 }
 
@@ -40,7 +40,7 @@
     font-size: 60px;
 }
 
-.content p {
+.content p.home {
     font-size: 26px;
     width: 60%;
 }
