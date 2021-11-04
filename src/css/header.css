@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+:root {
+    --main-color: #018abd;
+    --sub-color-1: #004581;
+    --sub-color-2: #001b48;
+    --sub-color-3: #97cbdc;
+    --sub-color-4: #dde8f0;
+}
+
+@font-face {
+    font-family: "Seatyio";
+    font-weight: 500;
+    src: url("../Fonts/seatyio.otf") format("opentype");
+}
+
+.Header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background: rgb(1, 138, 189);
+    background: -moz-linear-gradient(0deg, rgba(1, 138, 189, 1) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
+    background: -webkit-linear-gradient(0deg, rgba(1, 138, 189, 1) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
+    background: linear-gradient(0deg, rgba(1, 138, 189, 1) 10%, rgba(151, 203, 220, 1) 22%, rgba(255, 255, 255, 1) 92%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#018abd", endColorstr="#ffffff", GradientType=1);
+}
+
+.Header .content {
+    margin: 5em 0;
+    position: relative
+}
+
+.content h1,
+.content p {
+    color: var(--sub-color-2);
+}
+
+.content h1 {
+    font-family: "Seatyio";
+    font-size: 60px;
+}
+
+.content p {
+    font-size: 26px;
+    width: 60%;
+}
+.content p, .buttons{
+    font-family: 'Patrick Hand', cursive;
+}
+
+.buttons a {
+    font-size: 23px;
+    text-decoration: none;
+    padding: 5px 19px;
+    color: #eff7fa;
+    background: #001b48db;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    height: 49px;
+    width: 189px;
+    justify-content: center;
+}
+.buttons, .def{
+    margin: 30px 0;
+}
+
+.header-plate-image{
+    width:100px;
+    height:100px;
+}
+/* .fishes {
+    position: absolute;
+    background: url(../images/fishes.png);
+    width: 100%;
+    height: 200px;
+    left: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.header {
+    font-family: "Seatyio";
+    margin: 10px auto;
+}
+
+.brand-nb {
+    font-size: 28px;
+}
+
+.header a {
+    text-decoration: none;
+}
+
+.header .menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin: 0 9px;
+    font-size: 22px
+}
+
+.menu li a {
+    position: relative;
+    color: var(--sub-color-1);
+    transition: all .5s ease-in
+}
+
+.menu li a:active,
+.menu li a.active,
+.menu li a:hover {
+    color: var(--main-color);
+}
+
+.menu li a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: var(--main-color);
+    transition: all .2s ease-in
+}
+
+.menu li a:hover:after {
+    width: 100%;
+}

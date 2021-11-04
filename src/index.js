@@ -1,15 +1,22 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { BrowserRouter as Router } from 'react-router-dom'
+import { ChakraProvider } from "@chakra-ui/react"
 import "reactstrap/dist/reactstrap"
 import "bootstrap/dist/css/bootstrap.min.css"
+import "font-awesome/css/font-awesome.min.css"
+import "./css/main.css"
 import "./css/menu-card.css"
-import Main from './Components/MainComponent';
+import "./css/header.css"
+import Main from './components/Main';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Main />
-  </React.StrictMode>,
+  <ChakraProvider>    
+    <Router>
+      <Main />
+    </Router>
+  </ChakraProvider>,
   document.getElementById('root')
 );
 

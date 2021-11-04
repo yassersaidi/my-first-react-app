@@ -1,0 +1,40 @@
+body{
+    font-family:'Patrick Hand', cursive;
+}
+.row-header{
+    margin:0px auto;
+    padding:0px auto;
+}
+
+.row-content {
+    margin:0px auto;
+    padding: 50px 0px 50px 0px;
+    border-bottom: 1px ridge;
+    min-height:400px;
+}
+
+.footer{
+    background-color: var(--sub-color-2);
+    margin:0px auto;
+    padding: 20px 0px 20px 0px;
+    color: var(--sub-color-4);
+}
+.jumbotron {
+    padding:70px 30px 70px 30px;
+    margin:0px auto;
+    background: var(--sub-color-2);
+    color:var(--sub-color-4)
+}
+
+address{
+    font-size:80%;
+    margin:0px;
+    color:var(--sub-color-4)
+}
+
+.navbar-dark {
+    background-color: var(--sub-color-2);
+}
+.footer .btn{
+    color: var(--sub-color-4);
+}
